@@ -1,0 +1,10 @@
+public interface IConta {
+
+    void sacar(double valor) throws Exception;
+
+    void depositar(double valor);
+
+    void transferir(double valor, IConta IContaDestino) throws Exception;
+
+    void imprimirExtrato();
+}
